@@ -22,14 +22,14 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 210, 172, 95),
+      backgroundColor: const Color.fromARGB(255, 234, 158, 5),
       body: const Center(
         child: Text(
           'Hello World!',
           style: TextStyle(
-            fontSize: 40,
+            fontSize: 32,
             fontWeight: FontWeight.bold,
-            color: Color.fromARGB(255, 4, 82, 238),
+            color: Color.fromARGB(255, 200, 201, 203),
             fontFamily: 'DMSans', 
           ),
         ),
